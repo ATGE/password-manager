@@ -34,6 +34,14 @@ yarn test
 
 - **Frontend:** Next.js, Tailwind CSS
 
+### Environment Variables
+
+Before running the frontend, make sure `.env.local` file is present in the frontend directory with the following content:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:8000
+```
+
 ## How to Run
 
 To run this project, follow these steps:
